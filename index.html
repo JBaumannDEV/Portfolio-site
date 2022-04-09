@@ -157,18 +157,16 @@
         <p class="text-section-subtitle">Have a project that could use my services? Get in touch!</p>
       </div>
       <div class="w-form">
-        <<form action="https://submit-form.com/G1Kl2S1K">
-          <label for="name">Name</label>
-          <input type="text" id="name" name="name" placeholder="Name" required="" />
-          <label for="email">Email</label>
-          <input type="email" id="email" name="email" placeholder="Email" required="" />
-          <label for="message">Message</label>
-          <textarea
-            id="message"
-            name="message"
-            placeholder="Message"
-            required=""
-          ></textarea>
+        <form id="email-form" name="email-form" data-name="Email Form" method="get" class="contact-form-grid reveal">
+          <form action="https://submit-form.com/G1Kl2S1K">    
+            <div class="reveal"><label for="name-2">Name</label><input type="text" class="text-field w-input" maxlength="256" name="name-2" data-name="Name 2" placeholder="Name" id="name-2" required=""></div>
+             <div class="reveal"><label for="Phone-2">Phone number</label><input type="text" class="text-field w-input" maxlength="256" name="Phone-2" data-name="Phone 2" placeholder="+1234123456" id="Phone-2"></div>
+             <div class="reveal"><label for="Email-2">Email</label><input type="email" class="text-field w-input" maxlength="256" name="Email-2" data-name="Email 2" placeholder="example@email.com" id="Email-2" required=""></div>
+             <div class="reveal"><label for="Company-2">Company</label><input type="text" class="text-field w-input" maxlength="256" name="Company-2" data-name="Company 2" placeholder="Company name" id="Company-2"></div>
+             <div id="w-node-_6f80fb69-f8c8-f47c-b7b4-7f31d1812d3c-d1812d22" class="reveal"><label for="Message-2">Message</label><textarea data-name="Message 2" maxlength="5000" id="Message-2" name="Message-2" placeholder="Type out your message here..." class="text-field w-input"></textarea></div>
+             <div id="w-node-_6f80fb69-f8c8-f47c-b7b4-7f31d1812d40-d1812d22" class="reveal"><input type="submit" value="Send" data-wait="Please wait..." class="button w-button"></div>
+           </form>
+          </textarea>
           <button type="submit">Send</button>
         </form>        
         <div class="w-form-done">
